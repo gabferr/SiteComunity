@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d336e1b-badc-4e20-a1b7-e8029673e04a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/SiteComunidade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/SiteComunidade.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models.py" beforeDir="false" />
-    </list>
+    <list default="true" id="6d336e1b-badc-4e20-a1b7-e8029673e04a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -185,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645450064328</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="criado banco de dados">
+      <created>1645462030027</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1645462030027</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -205,6 +206,7 @@
     <MESSAGE value="Atualizações tudo funcionando" />
     <MESSAGE value="Craiação do Banco de dados" />
     <MESSAGE value="Ultimo commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ultimo commit" />
+    <MESSAGE value="criado banco de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="criado banco de dados" />
   </component>
 </project>
