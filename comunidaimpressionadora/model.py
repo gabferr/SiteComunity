@@ -1,5 +1,5 @@
 from datetime import datetime
-from main import database
+from comunidaimpressionadora import database
 
 
 class Usuario(database.Model):
