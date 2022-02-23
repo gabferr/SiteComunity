@@ -5,19 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d336e1b-badc-4e20-a1b7-e8029673e04a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/comunidaimpressionadora/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidaimpressionadora/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidade.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/model.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/templates/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/contato.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidaimpressionadora/templates/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/usuarios.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/templates/contato.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/templates/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidaimpressionadora/templates/usuarios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645462030027</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Reestruturação">
+      <created>1645466590130</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1645466590130</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -252,6 +258,7 @@
     <MESSAGE value="Craiação do Banco de dados" />
     <MESSAGE value="Ultimo commit" />
     <MESSAGE value="criado banco de dados" />
-    <option name="LAST_COMMIT_MESSAGE" value="criado banco de dados" />
+    <MESSAGE value="Reestruturação" />
+    <option name="LAST_COMMIT_MESSAGE" value="Reestruturação" />
   </component>
 </project>
