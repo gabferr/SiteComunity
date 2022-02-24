@@ -18,12 +18,24 @@
                 </li>
             </ul>
             <ul class=" navbar-nav  ">
-                <li>
-                     <a class="nav-link" href="{{ url_for('login') }}">Login</a>
-                </li>
-                <li>
-                    <a class="nav-link" href="{{ url_for('login') }}">Criar Conta</a>
-                </li>
+                {% if current_user.is_authenticated %}
+                    <li>
+                        <a class="nav-link" href="{{ url_for('criar_post') }}">Cria Post</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{ url_for('perfil') }}">Meu Perfil</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{ url_for('sair') }}">Sair</a>
+                    </li>
+                {% else %}
+                    <li>
+                        <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="{{ url_for('login') }}">Criar Conta</a>
+                    </li>
+                {% endif %}
             </ul>
         </div>
     </div>
