@@ -73,9 +73,20 @@ def criar_post():
     return render_template('criar_post.html')
 
 
-@app.route('/perfil/editar')
+@app.route('/perfil/editar', methods=['GET', 'POST'])
 @login_required
 def editar_perfil():
     form = FomrEditarPerfil()
+    if form.validate_on_submit():
+        current_user.email = form.email.data
+        current_user.username = form.username.data
+        database.session.commit()
+        flash('Perfil atualizado com sucesso', 'alert-success')
+        return redirect(url_for('perfil'))
+
+    elif request.method == 'GET':
+        form.email.data = current_user.email
+        form.username.data = current_user.username
+
     foto_perfil = url_for('static', filename='fotos_perfil/{}'.format(current_user.foto_perfil))
     return render_template('editarperfil.html', foto_perfil=foto_perfil, form=form)

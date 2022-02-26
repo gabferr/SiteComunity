@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6d336e1b-badc-4e20-a1b7-e8029673e04a" name="Changes" comment="edição html e css">
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/static/fotos_perfil/default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/editarperfil.html" afterDir="false" />
+    <list default="true" id="6d336e1b-badc-4e20-a1b7-e8029673e04a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/comunidade.db" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/comunidade.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/editarperfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/editarperfil.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/perfil.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -257,7 +256,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645744314742</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="botão editar perfil">
+      <created>1645826237568</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1645826237568</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -283,6 +289,7 @@
     <MESSAGE value="Sistema de login para usuarios" />
     <MESSAGE value="em andamento" />
     <MESSAGE value="edição html e css" />
-    <option name="LAST_COMMIT_MESSAGE" value="edição html e css" />
+    <MESSAGE value="botão editar perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="botão editar perfil" />
   </component>
 </project>
