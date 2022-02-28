@@ -263,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1645826237568</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="editar perfil">
+      <created>1645918066600</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1645918066600</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +297,7 @@
     <MESSAGE value="em andamento" />
     <MESSAGE value="edição html e css" />
     <MESSAGE value="botão editar perfil" />
-    <option name="LAST_COMMIT_MESSAGE" value="botão editar perfil" />
+    <MESSAGE value="editar perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="editar perfil" />
   </component>
 </project>
