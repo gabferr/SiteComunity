@@ -6,12 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6d336e1b-badc-4e20-a1b7-e8029673e04a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/comunidade.db" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/comunidade.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/perfil.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/usuarios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -292,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646349737350</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="pronto">
+      <created>1646681323376</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1646681323376</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,6 +324,7 @@
     <MESSAGE value="perfil completo" />
     <MESSAGE value="completo" />
     <MESSAGE value="quase" />
-    <option name="LAST_COMMIT_MESSAGE" value="quase" />
+    <MESSAGE value="pronto" />
+    <option name="LAST_COMMIT_MESSAGE" value="pronto" />
   </component>
 </project>
