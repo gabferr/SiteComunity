@@ -1,5 +1,5 @@
 from comunidadeimpressionadora import app, database, bcrypt
-from flask import render_template, redirect, url_for, request, flash
+from flask import render_template, redirect, url_for, request, flash, abort
 from comunidadeimpressionadora.forms import FormLogin, FormCriarConta, FomrEditarPerfil, FormCriarPost
 from comunidadeimpressionadora.model import Usuario, Post
 from flask_login import login_user, logout_user, current_user, login_required
@@ -127,7 +127,35 @@ def editar_perfil():
     return render_template('editarperfil.html', foto_perfil=foto_perfil, form=form)
 
 
-@app.route('/post/<post_id>')
+@app.route('/post/<post_id>', methods=['GET', 'POST'])
+@login_required
 def exibir_post(post_id):
     post = Post.query.get(post_id)
-    return render_template('post.html',post=post)
+    if current_user == post.autor:
+        form = FormCriarPost()
+        if request.method == 'GET':
+            form.titulo.data = post.titulo
+            form.corpo.data = post.corpo
+        elif form.validate_on_submit():
+            post.titulo = form.titulo.data
+            post.corpo = form.corpo.data
+            database.session.commit()
+            flash('Post atualizado com sucesso', 'alert-success')
+            return  redirect(url_for('inicio', ))
+    else:
+        form = None
+
+    return render_template('post.html', post=post, form=form)
+
+
+@app.route('/post/<post_id>/excluir', methods=['GET', 'POST'])
+@login_required
+def excluir_post(post_id):
+    post = Post.query.get(post_id)
+    if current_user ==  post.autor:
+        database.session.delete(post)
+        database.session.commit()
+        flash('Post excluido com sucesso', 'alert-danger')
+        return redirect(url_for('inicio'))
+    else:
+        abort(403)

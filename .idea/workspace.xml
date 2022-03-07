@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6d336e1b-badc-4e20-a1b7-e8029673e04a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/static/fotos_perfil/IMG_20220126_2100435a9f827921304818.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/comunidade.db" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/comunidade.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/model.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/perfil.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/perfil.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comunidadeimpressionadora/templates/usuarios.html" beforeDir="false" afterPath="$PROJECT_DIR$/comunidadeimpressionadora/templates/usuarios.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -284,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1646174439637</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="quase">
+      <created>1646349737350</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1646349737350</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -314,6 +322,7 @@
     <MESSAGE value="editar perfil" />
     <MESSAGE value="perfil completo" />
     <MESSAGE value="completo" />
-    <option name="LAST_COMMIT_MESSAGE" value="completo" />
+    <MESSAGE value="quase" />
+    <option name="LAST_COMMIT_MESSAGE" value="quase" />
   </component>
 </project>
